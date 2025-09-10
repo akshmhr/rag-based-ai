@@ -1,0 +1,12 @@
+# Core
+pandas
+numpy
+joblib
+scikit-learn
+
+# Transcription
+openai-whisper
+ffmpeg-python
+
+# API requests
+requests
