@@ -1,9 +1,1 @@
-**How to install TensorFlow**
-
-The installation steps are shown in the video **“Install tensorflow 2.0”** (video #5).  
-Here’s a quick guide that pulls from the key parts of that video:
-
-| Step | What to do | Where to find it in the video |
-|------|------------|------------------------------|
-| 1 | **Install Anaconda** (if you don’t already have it). The instructor links to a separate video that walks through the Anaconda installation on Windows. | Video #5, **0 – 5 s** (intro) and **25.7 – 30.8 s** (link to the Anaconda video). |
-| 2 | **Create a new conda environment** (recommended) or use your base environment.
+Hi there! 👋 How can I help you with the deep learning course today? If you have a question about a specific video or concept, just let me know and I’ll point you to the right place in the material.

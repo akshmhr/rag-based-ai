@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+import os
 import json
 from urllib import response
 import numpy as np
@@ -17,7 +19,9 @@ def create_embedding(text_list):
 
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-API_KEY = "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"
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+
 
 def ask_openrouter(model_slug, system_instruction, incoming_query, related_chunks):
     payload = {
@@ -94,4 +98,3 @@ with open("incoming_query.txt", "w") as f:
 
 with open("model_response.txt", "w") as f:
     f.write(model_response)
-print(model_response)
